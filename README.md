@@ -22,7 +22,7 @@ docker ps
 Should be show the next output:
 ```
 CONTAINER ID   IMAGE                COMMAND                  CREATED          STATUS          PORTS                                       NAMES
-6993cd3d5f57   mypythonapp:v0.0.3   "flask run --port=88…"   28 minutes ago   Up 27 minutes   0.0.0.0:8888->8888/tcp, :::8888->8888/tcp   testing
+6993cd3d5f57   mypythonapp:v0.0.1   "flask run --port=88…"   28 minutes ago   Up 27 minutes   0.0.0.0:8888->8888/tcp, :::8888->8888/tcp   testing
 ```
 
 # Verify the app in the browser
