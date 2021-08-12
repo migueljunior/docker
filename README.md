@@ -4,14 +4,14 @@ This is a repository with some experiments with Docker.
 This app (wrote on python) only exposes the endpoint /docker in the port 8888
 
 # Build the image
-Run the next command to build the image
+Run the next command to build the image.
 
 ```
 docker build -t mypythonapp:v0.0.1 .
 ```
 
 # Run the image in a container
-Run the next command to run the image built
+Run the next command to run the image built:
 ```
 docker run -d --name testing -p 8888:8888 mypythonapp:v0.0.1
 ```
